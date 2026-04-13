@@ -9,7 +9,7 @@ import sys
 # CONFIGURAZIONE TESSERACT
 # Se sei su Windows, DEVI specificare il percorso dell'eseguibile di Tesseract.
 # Rimuovi il commento dalla riga sottostante e verifica il percorso:
-# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\eliseo.gagliardi\AppData\Local\Programs\Tesseract-OCR'
 # ==============================================================================
 
 class TextGrabberApp:
